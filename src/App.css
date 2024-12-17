@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(220, 205, 74, 0.607);
+}
+.bmi-calculator{
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box{
+ width: 350px; 
+ background-image: url("assets/bmiImg.avif");
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.data
+{
+  flex: 1;
+  padding: 15px;
+}
+h1{
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(41, 41, 120);
+}
+.input-container{
+  margin-bottom: 15px;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(173, 169, 169);
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+button{
+  background-color: rgb(71, 71, 231);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover{
+  background-color: #2980b9;
+}
+.data button:nth-of-type(2){
+  background-color: red;
+  margin-left: 10px;
+}
+
